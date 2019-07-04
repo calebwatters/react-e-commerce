@@ -16,6 +16,7 @@ Item.destroy_all
     user.items.create(
         title: title,
         price: Faker::Commerce.price,
-        keywords: keyword
+        keywords: keyword,
+        description: Faker::Commerce.department
     )
 end

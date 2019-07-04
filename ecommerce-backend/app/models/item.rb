@@ -13,6 +13,8 @@ class Item < ApplicationRecord
       id: id,
       title: title,
       keywords: keywords,
+      description: description,
+      price: price,
       # item_photo:
       #   {
       #     url: x.photo.url.absolute_url,
